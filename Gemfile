@@ -6,6 +6,7 @@ gem 'devise'
 gem 'simple_form'
 gem 'paperclip'
 gem 'aws-sdk'
+gem 'faker'
 
 
 group :production do
