@@ -1,12 +1,12 @@
 <% if user_signed_in? %>
-<h4 class="headtext">Here are some awful animals. Use the button above to add your own!</h4>
+<h4 class="headtext">Here are the awful animals we know of so far. Use the button above to add your own!</h4>
 <br>
 
 <% else %>
 	<div class="hero-unit">
 		<h1>Welcome to Awful Animals</h1>
 		<p>
-			Warning: Animals cannot be trusted. Here you can identify some of the worst. <br> Go forth and sign up if you're ready to face them.
+			The Problem: Animals cannot be trusted. Here you can identify some of the worst. <br> Go forth and sign up if you want to be a part of the solution.
 		</p>
 		<p>
 			<%= link_to "Go Forth and Sign Up", new_user_registration_path,

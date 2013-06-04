@@ -1,6 +1,9 @@
 
-$baseFontFamily: Noto Sans;
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+$baseFontFamily: Lato;
+@import url(http://fonts.googleapis.com/css?family=Lato);
+/*@import url(http://fonts.googleapis.com/css?family=Domine);*/
+/*@import url(http://fonts.googleapis.com/css?family=Noto+Sans);*/
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
 /* $btnPrimaryBackground: orange;
 $navbarBackgroundHighlight: black;
@@ -52,8 +55,12 @@ border-bottom-color:#fff !important;
 }
 
 .navbar .brand{
-color:#fff !important;
+color: orange !important;
 text-shadow:none !important;
+padding-top: 10px;
+padding-left: 515px;
+font-size: 2em;
+font-family: Clicker Script;
 }
 /*
 .navbar .nav{
@@ -62,8 +69,8 @@ border-right:1px solid #e75f48;
 }*/
 
 .navbar .nav > li > a{
-padding:12px 15px 12px;
-color:#fff !important;
+padding: 12px 15px 12px;
+color: #fff !important;
 text-shadow:none !important;
 border-right: 1px solid #444;
 border-left:1px solid #444;
@@ -111,8 +118,8 @@ background: #cc412a !important;
 } */
 
 .brand {
-	/* height: 45px; */
-	color: orange;
+	/*height: 35px;
+	vertical-align: center;*/
 }
 
 .navbar-inner {
